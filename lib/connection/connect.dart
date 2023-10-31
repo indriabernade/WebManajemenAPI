@@ -11,11 +11,6 @@ class Connection {
   static const notice = "$hostConnectionUser/notify.php";
   static const deletenotice = "$hostConnectionUser/deletenotify.php";
 
-  static const myrepData = "https://apicore.myrepublic.net.id/tyk/apis/";
-  static const myrepReload =
-      "https://apicore.myrepublic.net.id/tyk/reload/group";
-  static const myrepKeys = "https://apicore.myrepublic.net.id/tyk/keys/create";
-
   static const localData = "http://localhost:8080/tyk/apis";
   static const localReload = "http://localhost:8080/tyk/reload/?block=true";
   static const localKeys = "http://localhost:8080/tyk/keys/create";
